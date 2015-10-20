@@ -8,11 +8,8 @@
      - `border-radius: 60px`
 */
 
-img{
-    position: absolute right;
-}
-
 li {
+  position: relative;    
   background: #eee;
   padding: 10px 32px 10px 10px;
   margin-bottom: 20px;
@@ -21,8 +18,12 @@ li {
 }
 
 img {
+    position: absolute;
   background: #fff;
   padding: 5px;
+  border-radius: 50px;
+  margin-left: 300px;
+  margin-top: -20px;
 }
 
 
